@@ -1,0 +1,78 @@
+# ========================
+# App specific
+# ========================
+output_contract/semantic_references/*
+!output_contract/semantic_references/.gitkeep
+prompts/*
+!prompts/.gitkeep
+evals/*
+!evals/.gitkeep
+
+# ========================
+# Python
+# ========================
+.python-version
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv
+*.log
+*.sqlite3
+db.sqlite3
+
+# ========================
+# Django
+# ========================
+media/
+staticfiles/
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*  # optional: ignore all migrations if dynamic
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+*.pid
+*.out
+*.bak
+*.swp
+*.tmp
+*.old
+.DS_Store
+
+# ========================
+# PostgreSQL
+# ========================
+postgres_data/
+pg_dump_*.sql
+*.pgpass
+
+# ========================
+# IDEs / Editors
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# ========================
+# OS / System Files
+# ========================
+Thumbs.db
+desktop.ini
+
+# ========================
+# Testing / Build
+# ========================
+.coverage
+test-results/
+*.pytest_cache/
+dist/
+build/
+tests/*
+!tests/.gitkeep
