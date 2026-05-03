@@ -1,6 +1,6 @@
 # AI Agent Orchestration Platform
 
-A Python-based AI agent orchestration platform for software decommissioning analysis.
+A Python-based AI agent orchestration platform for software decomposition analysis.
 
 The project demonstrates how to build an LLM-powered backend around structured multi-agent execution,
 typed inter-agent handoffs, prompt configuration, runtime boundaries, and cost observability.
@@ -13,7 +13,7 @@ Each agent has a dedicated responsibility.
 Its output becomes validated structured context for the next stage,
 creating a controlled context-chaining pattern instead of passing loose text between agents.
 
-Although the current use case is software decommissioning analysis,
+Although the current use case is software decomposition analysis,
 the architecture represents a generic pattern for structured AI agent orchestration.
 
 ## Core Idea
@@ -240,13 +240,13 @@ The project demonstrates practical backend and AI engineering patterns for LLM s
 
 ## Non-Goal
 
-This project does not aim to be a complete SaaS product or fully production decommissioning platform.
+This project does not aim to be a complete SaaS product or fully production decomposition platform.
 Its purpose is to demonstrate architecture and implementation quality in an AI backend system.
 
 ## Summary
 
 This project is a structured LLM orchestration backend built around a three-stage agent pipeline.
-Its value is not only in the decommissioning analysis use case, but in the engineering pattern behind it:
+Its value is not only in the decomposition analysis use case, but in the engineering pattern behind it:
 
 - clean boundaries,
 - typed contracts,
